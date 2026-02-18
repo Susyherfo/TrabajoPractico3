@@ -1,0 +1,5 @@
+[core]
+    remote = data-model
+['remote "data-model"']
+    url = s3://mlops-tp4-herrera-2026
+    profile = ulead-mlops

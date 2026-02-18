@@ -38,11 +38,11 @@ uv run python src/train.py
 
 ```bash
 # Configurar AWS CLI
-aws configure --profile nombre-del-perfil
+aws configure --profile ulead-mlops
 
 # Agregar remote de S3
-dvc remote add -d myremote s3://tu-bucket/ruta/dvc-storage
+uv run dvc remote add  -d data-model s3://mlops-tp4-herrera-2026 
 
 # Si usas un perfil específico de AWS
-dvc remote modify myremote profile nombre-del-perfil
+uv run dvc remote modify data-model profile ulead-mlops
 ```
