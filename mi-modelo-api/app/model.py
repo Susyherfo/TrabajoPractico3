@@ -14,3 +14,8 @@ def predict(data):
     prediction = model.predict(features)
 
     return prediction.tolist()
+'''
+
+def predict(data):
+    return {"resultado": "dummy"} 
+'''
