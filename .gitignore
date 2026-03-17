@@ -1,0 +1,4 @@
+mlops_data_versioning/
+venv/
+__pycache__/
+*.pyc
